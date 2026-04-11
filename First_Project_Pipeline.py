@@ -8,7 +8,7 @@ local_file = "./customers.csv"
 gcs_file = "customers.csv"
 dataset_name = "Dataset_First_Pipeline"
 table_name = "Customer_Table"
-service_account_json = "C:\\Users\\Lenovo\\Downloads\\your-cloud-trek-135b0c1fb813.json"
+service_account_json = "path to your json file"
 
 def upload_data_gcs():
     print("Upload file to storage")
